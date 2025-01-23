@@ -36,20 +36,20 @@ const StatsSection = () => {
   }, [inView]);
 
   return (
-    <div ref={ref} className="bg-editor-dark py-12 md:py-20">
+    <div ref={ref} className="bg-editor-dark py-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="text-center">
-            <div className="text-3xl md:text-5xl font-bold text-editor-primary mb-3 md:mb-4">
+            <div className="text-5xl font-bold text-editor-primary mb-4">
               {counts.projects}+
             </div>
-            <p className="text-lg md:text-xl text-gray-300">Projetos Realizados</p>
+            <p className="text-xl text-gray-300">Projetos Realizados</p>
           </div>
           <div className="text-center">
-            <div className="text-3xl md:text-5xl font-bold text-editor-secondary mb-3 md:mb-4">
+            <div className="text-5xl font-bold text-editor-secondary mb-4">
               {counts.satisfaction.toFixed(1)}%
             </div>
-            <p className="text-lg md:text-xl text-gray-300">Clientes Satisfeitos</p>
+            <p className="text-xl text-gray-300">Clientes Satisfeitos</p>
           </div>
         </div>
       </div>
