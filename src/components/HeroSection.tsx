@@ -1,4 +1,4 @@
-import { Video } from "lucide-react";
+import { Video, ArrowRight, Instagram } from "lucide-react";
 import { useEffect, useState } from "react";
 
 const HeroSection = () => {
@@ -44,9 +44,18 @@ const HeroSection = () => {
               Transformando suas ideias em conteúdo impactante para empreendedores, 
               influenciadores e agências.
             </p>
+            <a
+              href="https://drive.google.com/drive/folders/1VTPqSbGwNLmF95pqSGJPrTUalNx-Tfed"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-editor-primary hover:bg-editor-primary/90 text-white px-6 py-3 rounded-lg transition-colors duration-300"
+            >
+              <span>Ver portfólio</span>
+              <ArrowRight size={20} />
+            </a>
           </div>
           
-          <div className="md:w-1/2 flex justify-center">
+          <div className="md:w-1/2 flex flex-col items-center">
             <div 
               className={`relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden transform transition-all duration-700 delay-500 ${
                 isVisible ? "scale-100 opacity-100" : "scale-95 opacity-0"
@@ -59,7 +68,21 @@ const HeroSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-br from-editor-primary/30 to-editor-secondary/30" />
             </div>
+            <h3 className="text-2xl font-bold text-white mt-4">LEONAN</h3>
           </div>
+        </div>
+
+        {/* Instagram Link */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+          <a
+            href="https://www.instagram.com/EDITO.VIDEO1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center space-x-2 text-white hover:text-editor-primary transition-colors duration-300"
+          >
+            <Instagram size={24} />
+            <span>@EDITO.VIDEO1</span>
+          </a>
         </div>
       </div>
     </div>

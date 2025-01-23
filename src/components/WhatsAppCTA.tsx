@@ -8,7 +8,7 @@ const WhatsAppCTA = () => {
           Pronto para Transformar Suas Ideias em Realidade?
         </h2>
         <a
-          href="https://wa.me/SEUNUMEROAQUI"
+          href="https://api.whatsapp.com/send/?phone=5512988508716&text&type=phone_number&app_absent=0"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg transition-colors duration-300"
