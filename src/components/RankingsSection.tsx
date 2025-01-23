@@ -10,6 +10,7 @@ const RankingsSection = () => {
     <div ref={ref} className="bg-black py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto bg-editor-dark/50 backdrop-blur-sm rounded-lg p-8">
+          <h2 className="text-3xl font-bold text-white text-center mb-8">Rank</h2>
           <div className="flex flex-col items-center mb-8">
             <img
               src="/lovable-uploads/34dc4d01-d69d-4972-aa61-dc8bb48b356a.png"
