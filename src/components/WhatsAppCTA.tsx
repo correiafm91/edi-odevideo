@@ -1,4 +1,4 @@
-import { WhatsappIcon } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const WhatsAppCTA = () => {
   return (
@@ -13,7 +13,7 @@ const WhatsAppCTA = () => {
           rel="noopener noreferrer"
           className="inline-flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg transition-colors duration-300"
         >
-          <WhatsappIcon size={24} />
+          <MessageCircle size={24} />
           <span className="text-lg font-semibold">
             Solicitar Orçamento Personalizado
           </span>
