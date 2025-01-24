@@ -15,7 +15,7 @@ const RankingsSection = () => {
             <img
               src="/lovable-uploads/34dc4d01-d69d-4972-aa61-dc8bb48b356a.png"
               alt="Profile"
-              className="w-24 h-24 rounded-full mb-4"
+              className={`w-24 h-24 rounded-full mb-4 ${inView ? 'animate-gentle-wave' : ''}`}
             />
             <h3 className="text-2xl font-bold text-white mb-2">Leonan R.</h3>
             <p className="text-editor-primary mb-4">Edição de Vídeo</p>

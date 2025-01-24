@@ -52,7 +52,7 @@ const TestimonialsSection = () => {
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
                     <Star
                       key={i}
-                      className="text-yellow-400 fill-yellow-400"
+                      className={`text-yellow-400 fill-yellow-400 ${inView ? 'animate-gentle-wave' : ''}`}
                       size={20}
                     />
                   ))}
