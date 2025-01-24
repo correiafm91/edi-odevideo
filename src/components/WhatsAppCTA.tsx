@@ -24,7 +24,7 @@ const WhatsAppCTA = () => {
             href="https://www.instagram.com/EDITO.VIDEO1"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 text-white hover:text-editor-primary transition-colors duration-300"
+            className="fixed bottom-8 left-8 inline-flex items-center space-x-2 text-white hover:text-editor-primary transition-colors duration-300"
           >
             <Instagram size={24} />
             <span>@EDITO.VIDEO1</span>
