@@ -1,3 +1,5 @@
+import { MessageCircle } from "lucide-react";
+
 const HeroSection = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-editor-dark to-black py-20">
